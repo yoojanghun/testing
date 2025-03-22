@@ -2,7 +2,6 @@
     padding-top: 130px;
     display: flex;
     max-width: 1800px;
-    min-width: 1000px;
     margin: 0 auto;
 }
 
@@ -29,7 +28,6 @@
 
 .headsets-main__filter{
     width: 15%;
-    min-width: 180px;
     padding-left: 10px;
     padding-right: 25px;
     box-sizing: border-box;
@@ -77,7 +75,6 @@
 .headsets-main__product{
     display: flex;
     margin-top: 10px;
-    min-width: 800px;
     animation: fadeMoveLeft 1s ease-in-out backwards;
     animation-delay: 0.8s;
 }
