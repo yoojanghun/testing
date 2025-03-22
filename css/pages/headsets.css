@@ -2,7 +2,7 @@
     padding-top: 130px;
     display: flex;
     max-width: 1800px;
-    min-width: 1000px;
+    min-width: 50%;
     margin: 0 auto;
 }
 
@@ -192,4 +192,16 @@
 }
 .headsets-main__product-purchase:hover{
     background-color: var(--btn-dark-color);
+}
+
+@media screen and (max-width: 600px){
+    .headsets-main__filter{
+        display: none;
+    }
+    
+    .headsets-main__product{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
 }
