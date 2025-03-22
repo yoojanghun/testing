@@ -15,7 +15,7 @@
 }
 .header__location{
     display: flex;
-    min-width: 10%;
+    min-width: 8%;
 }
 .header__location-icon{
     margin-right: 5px;
@@ -46,7 +46,7 @@
 }
 .header__search-button{
     border: none;
-    width: 45px;
+    width: 2.25%;
     height: 42px;
     border-radius: 5px;
     border-top-left-radius: 0;
@@ -63,7 +63,7 @@
     box-sizing: border-box;
 }
 .header__account{
-    min-width: 5%;
+    min-width: 7.5%;
 }
 .header__orders{
     min-width: 5%;
