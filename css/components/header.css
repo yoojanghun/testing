@@ -2,7 +2,7 @@
     color: white;
     position: fixed;
     width: 100%;
-    min-width: 1000px;
+    min-width: 50%;
     z-index: 99;
 }
 .header__top{
@@ -15,7 +15,7 @@
 }
 .header__location{
     display: flex;
-    min-width: 160px;
+    min-width: 8%;
 }
 .header__location-icon{
     margin-right: 5px;
@@ -54,6 +54,7 @@
     background-color: #FEBD69;
     position: absolute;
     right: 5%;
+    top: 0;
 }
 .header__account,
 .header__orders{
@@ -63,10 +64,10 @@
     box-sizing: border-box;
 }
 .header__account{
-    min-width: 150px;
+    min-width: 7.5%;
 }
 .header__orders{
-    min-width: 100px;
+    min-width: 5%;
 }
 .header__location-deliver,
 .header__account-greeting,
@@ -139,14 +140,24 @@
     box-sizing: border-box;    
 }
 
-@media screen and (orientation: portrait){
+@media screen and (orientation: landscape){
     .header__nav-item:last-child{
         display: none;
     }
 }
 
-@media screen and (orientation: landscape){
+@media screen and (orientation: portrait){
     .header__nav-item:nth-child(-n+5){
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header__account,
+    .header__orders,
+    .header__cart,
+    .header__location,
+    .header__nav-info{
         display: none;
     }
 }
