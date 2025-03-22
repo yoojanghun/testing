@@ -77,7 +77,7 @@
 .headsets-main__product{
     display: flex;
     margin-top: 10px;
-    min-width: 800px;
+    min-width: 100%;
     animation: fadeMoveLeft 1s ease-in-out backwards;
     animation-delay: 0.8s;
 }
