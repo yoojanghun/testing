@@ -142,7 +142,6 @@
         gap: 0;
     }
 }
-
 @media screen and (max-width: 420px){
     .home-main__best-list img{
         height: 90%;
