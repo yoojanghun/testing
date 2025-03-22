@@ -4,7 +4,7 @@
 .home-main{
     padding-top: 100px;
     max-width: 1500px;
-    min-width: 1000px;
+    min-width: 50%;
     margin: 0 auto;
     position: relative;
 }
