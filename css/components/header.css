@@ -12,6 +12,7 @@
     background-color: #131921;
     height: 60px;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 .header__location{
     display: flex;
@@ -126,6 +127,7 @@
     align-items: center;
     height: 40px;
     padding: 0 20px;
+    box-sizing: border-box;
 }
 .header__nav-list{
     margin: 0;
