@@ -1,8 +1,8 @@
 #home{
     background-color: #E3E6E6;
+    max-width: 100%;
 }
 .home-main{
-    width: 100%;
     padding-top: 100px;
     max-width: 1500px;
     min-width: 50%;
