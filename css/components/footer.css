@@ -1,6 +1,7 @@
 .footer{
     width: 100%;
     color: white;
+    min-width: 1000px;
 }
 
 .footer__top{
