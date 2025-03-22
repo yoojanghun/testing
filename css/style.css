@@ -1,0 +1,17 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+body{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+:root{
+    --main-color: #232F3E;
+    --main-border: 1px solid hsla(0, 0%, 0%, 0.3);
+    --btn-color: hsl(50, 100%, 54%);
+    --btn-dark-color: hsl(50, 100%, 48%);
+}

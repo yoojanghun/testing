@@ -1,0 +1,115 @@
+.login-header{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.login-main{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.login-main__form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid hsla(0, 0%, 0%, 0.2);
+    border-radius: 10px;
+    padding: 25px;
+}
+.login-main__title{
+    font-weight: 400;
+    margin-top: 0;
+}
+.login-main__form label{
+    margin-bottom: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login-main__form input{
+    margin-bottom: 13px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid hsla(0, 0%, 0%, 0.6);
+    padding-left: 5px; 
+    transition: all 0.2s ease-in-out;
+}
+
+.login-main__form input[type="submit"]{
+    background-color: var(--btn-color);
+    border: none;
+    border-radius: 30px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.login-main__form input:focus{
+    outline: 3px solid teal;
+    outline-offset: 2px;
+}
+.login-main__form input[type="submit"]:hover{
+    background-color: var(--btn-dark-color);
+}
+
+.login-main__notice{
+    font-size: 13px;
+}
+.login-main__notice-text{
+    line-height: 18px;
+    margin: 0;
+}
+.login-main__help{
+    margin-top: 28px;
+}
+
+.login-main__business{
+    border-top: 1px solid hsla(0, 0%, 0%, 0.2);
+    margin-top: 25px;
+}
+.login-main__business-title{
+    margin: 18px 0;
+}
+
+
+.login-main__account{
+    border-top: 1px solid hsla(0, 0%, 0%, 0.2);
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.login-main__account-title{
+    margin: 0;
+    position: absolute;
+    top: -7px;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 7px;
+}
+.login-main__account-button{
+    width: 100%;
+    height: 30px;
+    background-color: hsl(177, 83%, 100%);
+    border:  1px solid hsla(0, 0%, 0%, 0.6);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login-main__account-button:hover{
+    background-color: hsl(177, 83%, 98%);
+}
+
+.login-footer{
+    border-top: 2px solid hsla(0, 0%, 0%, 0.2);
+    margin: 12px 0;
+}
+.login-footer__list{
+    display: flex;
+    justify-content: center;
+    margin: 42px 0;
+}
+.login-footer__item{
+    margin: 0 20px;
+    font-size: 12px;
+}

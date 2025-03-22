@@ -1,0 +1,128 @@
+#home{
+    background-color: #E3E6E6;
+}
+.home-main{
+    padding-top: 100px;
+    max-width: 1500px;
+    min-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.home-main__display:first-child{
+    height: 300px;
+    position: relative;
+    z-index: -1;
+}
+.home-main__display:first-child img{
+    width: 100%;
+    height: 450px;
+    box-shadow: 0px 80px 70px hsl(0, 100%, 35%);
+}
+.home-main__display-icons{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.home-main__display:nth-child(2){
+    width: 100%;
+    display: flex;
+    gap: 20px 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.home-main__category{
+    background-color: white;
+    width: 24%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    border: var(--main-border);
+    transition: transform 0.2s ease-in-out;
+}
+
+.home-main__category:hover{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1250px){
+    .home-main__category{
+        width: 32%;
+    }
+}
+.home-main__category-title{
+    margin: 0;
+    font-size: 21px;
+    margin-bottom: 13px;
+}
+.home-main__category-items{
+    width: 100%;
+    height: 80%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.home-main__category-row{
+    display: flex;
+    height: 40%;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.category-row--xl{
+    height: 100%;
+}
+.category-row--sm{
+    gap: 5px;
+    height: 35%;
+}
+.home-main__category-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.home-main__category-item img{
+    min-height: 100%;
+    width: 100%;
+}
+
+.home-main__display:last-child{
+    padding: 0 20px;
+}
+.home-main__best{
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: var(--main-border);
+}
+.home-main__best-title{
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 21px;
+}
+.home-main__best-list{
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    gap: 15px;
+}
+.home-main__best-list img{
+    width: 20%;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.home-main__best-list img:hover{
+    transform: scale(1.1);
+}

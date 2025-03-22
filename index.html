@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Hub - Log In</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages/login.css">
+    <link rel="stylesheet" href="css/components/link.css">
+</head>
+<body>
+    <header class="login-header">
+        <a class="login-header__link" href="home.html">
+            <i class="fa-solid fa-user fa-3x"></i>
+        </a>
+    </header>
+
+    <main class="login-main">
+        <form class="login-main__form" action="home.html" method="get">
+            <h1 class="login-main__title">Log in</h1>
+            <label for="email">Email or Phone number</label>
+            <input id="email" name="email" type="text" placeholder="Email or phone number" maxlength="20" required>
+            
+            <label for="psw">Password</label>
+            <input id="psw" name="password" type="password" placeholder="password" maxlength="15" required>
+            
+            <input type="submit" value="Log in">
+
+            <div class="login-main__notice">
+                <p class="login-main__notice-text">By continuing, you agree to shopping hub's 
+                    <a href="#" class="link--teal link--underline">Conditions of Use</a> and 
+                    <a href="#" class="link--teal link--underline">Privacy Notice </a> 
+                </p>
+            </div>
+
+            <div class="login-main__help">
+                <i class="fa-solid fa-chevron-down"></i>
+                <a href="#" class="link--teal">Need help?</a>
+            </div>
+
+            <div class="login-main__business">
+                <h4 class="login-main__business-title">Buying for work?</h4>
+                <a href="#" class="link--teal">Shop on shopping hub Business</a>
+            </div>
+        </form>
+
+        <div class="login-main__account">
+            <h6 class="login-main__account-title">New to shopping hub?</h6>
+            <button class="login-main__account-button">Create your shopping hub account</button>
+        </div>
+    </main>
+
+    <footer class="login-footer">
+        <ul class="login-footer__list">
+            <li class="login-footer__item">
+                <a href="#" class="link--teal">Terms of Service</a>
+            </li>
+            <li class="login-footer__item">
+                <a href="#" class="link--teal">Privacy Policy</a>
+            </li>
+            <li class="login-footer__item">
+                <a href="#" class="link--teal">Help me</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/b2fcc08d12.js" crossorigin="anonymous"></script>
+</body>
+</html>
